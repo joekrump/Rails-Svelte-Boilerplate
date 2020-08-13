@@ -1,4 +1,4 @@
-# KRP
+# React Svelte Boilerplate
 
 ## Dependencies:
 
