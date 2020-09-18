@@ -12,10 +12,6 @@ Bundler: `2.1.4`
 * Install [Overmind](https://github.com/DarthSim/overmind#installation)
 * Start the app by running `yarn start`
 
-# Contributing
-
-Project board: https://github.com/joekrump/krp/projects/1
-
 # Credit
 
 These articles have helped me out in getting this project configured:
