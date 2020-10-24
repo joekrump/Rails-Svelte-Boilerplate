@@ -9,7 +9,6 @@
     "@rails/webpacker": "4.2.2",
     "@tailwindcss/ui": "^0.3.0",
     "svelte": "^3.22.2",
-    "svelte-loader": "^2.13.6",
     "tailwindcss": "^1.4.6",
     "turbolinks": "^5.2.0"
   },
@@ -36,6 +35,7 @@
     "stylelint-config-prettier": "^8.0.1",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-prettier": "^1.1.2",
+    "svelte-loader": "^2.13.6",
     "svelte-preprocess": "^3.7.4",
     "webpack-dev-server": "^3.11.0"
   },
