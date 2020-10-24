@@ -1,5 +1,6 @@
 {
   "name": "krp",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@coding-g/webpacker-svelte": "^0.2.3",
@@ -11,7 +12,6 @@
     "tailwindcss": "^1.4.6",
     "turbolinks": "^5.2.0"
   },
-  "version": "0.1.0",
   "devDependencies": {
     "@arkweid/lefthook": "^0.7.2",
     "@fullhuman/postcss-purgecss": "^2.2.0",
