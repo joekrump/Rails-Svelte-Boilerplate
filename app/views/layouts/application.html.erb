@@ -19,11 +19,11 @@
   </head>
 
   <body class="h-screen">
-    <div class="flex top-nav">
+    <div class="flex top-nav bg-purple-600">
       <% if current_user %>
-        <%= link_to("Logout", destroy_user_session_path, :method => :delete, class: "px-2 py-2 text-indigo-500") %>
+        <%= link_to("Logout", destroy_user_session_path, :method => :delete, class: "px-2 py-2 text-white font-bold") %>
       <% else %>
-        <%= link_to("Login", new_user_session_path, class: "px-2 py-2 text-indigo-500") %>
+        <%= link_to("Login", new_user_session_path, class: "px-2 py-2 text-white font-bold") %>
       <% end %>
     </div>
 
