@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@coding-g/webpacker-svelte": "^0.2.3",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
@@ -14,6 +13,7 @@
   },
   "devDependencies": {
     "@arkweid/lefthook": "^0.7.2",
+    "@coding-g/webpacker-svelte": "^0.2.3",
     "@fullhuman/postcss-purgecss": "^2.2.0",
     "autoprefixer": "^9.8.0",
     "babel-eslint": "^10.1.0",
