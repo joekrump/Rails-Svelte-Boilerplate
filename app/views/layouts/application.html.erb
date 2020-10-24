@@ -9,8 +9,7 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <style>
-      .flex {
-        display: flex;
+      .top-nav {
         justify-content: flex-end;
       }
       a {
@@ -19,8 +18,8 @@
     </style>
   </head>
 
-  <body>
-    <div class="flex">
+  <body class="h-screen">
+    <div class="flex top-nav">
       <% if current_user %>
         <%= link_to("Logout", destroy_user_session_path, :method => :delete, class: "px-2 py-2 text-indigo-500") %>
       <% else %>
