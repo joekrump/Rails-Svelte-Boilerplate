@@ -12,6 +12,10 @@ Bundler: `2.1.4`
 * Install [Overmind](https://github.com/DarthSim/overmind#installation)
 * Start the app by running `yarn start`
 
+# Dev
+
+1. Quickly create new components by running `rails g component <component_name>`.
+
 # Credit
 
 These articles have helped me out in getting this project configured:
