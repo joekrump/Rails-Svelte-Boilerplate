@@ -1,5 +1,7 @@
 # Rails + Svelte Boilerplate
 
+<img width="771" alt="App Screenshot" src="https://user-images.githubusercontent.com/3317231/100060108-f28a3480-2de0-11eb-9292-fe43e8a1dad5.png">
+
 ## Dependencies:
 
 Ruby: `2.5.6`
