@@ -17,7 +17,7 @@ Bundler: `2.1.4`
 - Quickly create new components by running `rails g component <component_name>`.
   - Render a component in a `.erb` file using the `component` method from `application_helper.rb`. Ex.
   ```ruby
-  <%= component("Button", { }, { }, "I'm a Svelte component!") %>`
+  <%= component("Button", { }, { }, "I'm a Svelte component!") %>
   ```
 
 # Credit
