@@ -1,4 +1,4 @@
-# Rails Svelte Boilerplate
+# Rails + Svelte Boilerplate
 
 ## Dependencies:
 
