@@ -1,5 +1,15 @@
 <div class="bg-gray-50">
-  <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-center">
-    <h1 class="mb-2 flex text-3xl">Welcome!</h1>
+  <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+    <h1 class="mb-2 text-3xl block">Welcome!</h1>
+    <br>
+    <div class="block">
+      <div class="block">
+        <!-- rendered using the component method in application_hepler.rb -->
+        <%= component("Button", { }, { }, "I'm a Svelte component!") %>
+      </div>
+      <div class="block">
+        My code is found in <pre class="inline">frontend/components/button/button.svelte</pre>
+      </div>
+    </div>
   </div>
 </div>
