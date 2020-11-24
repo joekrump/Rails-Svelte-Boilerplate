@@ -6,15 +6,15 @@ Ruby: `2.5.6`
 Bundler: `2.1.4`
 
 # Setup
-* Setup Database: `rake db:setup`
-* Install rails dependencies: `bundle install`
-* Install javascript dependencies `yarn`
-* Install [Overmind](https://github.com/DarthSim/overmind#installation)
-* Start the app by running `yarn start`
+1. Install rails dependencies: `bundle install`
+2. Setup Database: `rake db:setup`
+3. Install javascript dependencies: `yarn install`
+4. Install [Overmind](https://github.com/DarthSim/overmind#installation)
+5. Start the app by running `yarn start`
 
 # Dev
 
-1. Quickly create new components by running `rails g component <component_name>`.
+- Quickly create new components by running `rails g component <component_name>`.
 
 # Credit
 
