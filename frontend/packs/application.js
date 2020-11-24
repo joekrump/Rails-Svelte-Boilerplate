@@ -14,7 +14,13 @@ require("channels");
 
 // Turbolinks must be loaded before calling this.
 // > require("turbolinks").start();
-WebpackerSvelte.setup({ Button, AvatarImage });
+
+// Add components here that you want to be able to render using application_helper.rb#component
+// Ex. <%= component("Button", {}, {}) -%>
+WebpackerSvelte.setup({
+  Button,
+  AvatarImage,
+});
 
 // Uncomment to copy all static images under ../images to the output folder and reference
 // them with the image_pack_tag helper in views (e.g <%= image_pack_tag 'rails.png' %>)
