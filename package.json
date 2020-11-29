@@ -8,6 +8,7 @@
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@tailwindcss/ui": "^0.6.2",
+    "svelte-preprocess": "^4.6.1",
     "tailwindcss": "^1.9.6",
     "turbolinks": "^5.2.0"
   },
@@ -36,7 +37,6 @@
     "stylelint-prettier": "^1.1.2",
     "svelte": "^3.29.7",
     "svelte-loader": "^2.13.6",
-    "svelte-preprocess": "^3.7.4",
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
