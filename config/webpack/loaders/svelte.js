@@ -1,4 +1,4 @@
-import sveltePreprocess from "svelte-preprocess";
+const Preprocess = require("svelte-preprocess");
 
 module.exports = {
   test: /\.svelte$/,
@@ -7,8 +7,10 @@ module.exports = {
       loader: "svelte-loader",
       options: {
         hotReload: true,
-        preprocess: sveltePreprocess({
-          /* options */
+        preprocess: Preprocess({
+          defaults: {
+            script: "typescript",
+          },
         }),
       },
     },
