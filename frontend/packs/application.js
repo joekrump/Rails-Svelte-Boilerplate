@@ -3,17 +3,16 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 import WebpackerSvelte from "@coding-g/webpacker-svelte";
+import Turbolinks from "turbolinks";
 import Button from "../components/button/button-indigo.svelte";
 import AvatarImage from "../components/avatar-image/avatar-image.svelte";
 import "../styles/application.pcss";
 
+Turbolinks.start();
+
 require("@rails/ujs").start();
-require("turbolinks").start();
 require("@rails/activestorage").start();
 require("channels");
-
-// Turbolinks must be loaded before calling this.
-// > require("turbolinks").start();
 
 // Add components here that you want to be able to render using application_helper.rb#component
 // Ex. <%= component("Button", {}, {}) -%>
