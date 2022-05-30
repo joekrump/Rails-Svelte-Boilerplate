@@ -4,6 +4,10 @@
 
 ## Dependencies:
 
+# ARCHIVED
+
+This project is no longer maintained. It's successor can be found here: https://github.com/joekrump/svelte-rails
+
 Ruby: `2.5.6`
 Bundler: `2.1.4`
 
